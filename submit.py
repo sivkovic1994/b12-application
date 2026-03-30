@@ -11,7 +11,7 @@ def iso_timestamp():
     return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 payload = {
-    "action_run_link": "https://github.com/YOUR_USERNAME/YOUR_REPO/actions/runs/YOUR_RUN_ID",
+    "action_run_link": "https://github.com/sivkovic1994/b12-application/actions/runs/23752263865",
     "email": "sladjanivkovic2@gmail.com",
     "name": "Sladjan Ivkovic",
     "repository_link": "https://github.com/sivkovic1994/b12-application",
